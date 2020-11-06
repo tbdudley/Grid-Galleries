@@ -58,6 +58,7 @@ img {
   text-align: center;
 }
 
+.logo a,
 .nav-menu a {
   display: block;
   text-decoration: none;
