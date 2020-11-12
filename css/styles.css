@@ -119,7 +119,7 @@ img {
 }
 
 .gallery-img:hover {
-  transform: scale(1.5rem);
+  transform: scale(1.5);
 }
 
 /*begin media quires for large screens*/
