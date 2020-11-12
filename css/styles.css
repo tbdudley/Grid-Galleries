@@ -118,7 +118,7 @@ img {
   object-fit: cover;
 }
 
-.gallery-img:hoverc {
+.gallery-img:hover {
   transform: scale(1.5rem);
 }
 
