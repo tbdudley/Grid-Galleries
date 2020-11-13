@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
     <title>Grid Gallery</title>
   </head>
   <body>
@@ -21,18 +22,18 @@
       </nav>
     </header>
     <main class="gallery-page">
-      <h1>Grid Span Gallery</h1>
-      <section class="gallery-span">
-        <div class="gallery-item w-3">
-          <a href="img/posiondartfrog1.jpg"
+      <h1>Lightbox Caption Gallery</h1>
+      <section class="gallery-auto-fit">
+        <div class="gallery-item">
+          <a href="img/posiondartfrog1.jpg" class="glightbox"
             ><img
               src="img/posiondartfrog1.jpg"
               alt="Frog pictures from Google Search"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item w-2 h-2">
-          <a href="img/posiondartfrog2.jpeg"
+        <div class="gallery-item">
+          <a href="img/posiondartfrog2.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog2.jpeg"
               alt="Frog pictures from Google Search"
@@ -40,23 +41,23 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/poisondartfrog3.jpeg"
+          <a href="img/poisondartfrog3.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog3.jpeg"
               alt="Frog pictures from Google Search"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item h-2">
-          <a href="img/poisondartfrog4.jpeg"
+        <div class="gallery-item">
+          <a href="img/poisondartfrog4.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog4.jpeg"
               alt="Frog pictures from Google Search"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item w-2">
-          <a href="img/poisondartfrog5.jpeg"
+        <div class="gallery-item">
+          <a href="img/poisondartfrog5.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog5.jpeg"
               alt="Frog pictures from Google Search"
@@ -64,15 +65,15 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/poisondartfrog6.jpeg"
+          <a href="img/poisondartfrog6.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog6.jpeg"
               alt="Frog pictures from Google Search"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item h-3">
-          <a href="img/poisondartfrog7.jpeg"
+        <div class="gallery-item">
+          <a href="img/poisondartfrog7.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog7.jpeg"
               alt="Frog pictures from Google Search"
@@ -80,7 +81,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/poisondartfrog8.jpeg"
+          <a href="img/poisondartfrog8.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog8.jpeg"
               alt="Frog pictures from Google Search"
@@ -88,15 +89,15 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/poisondartfrog9.jpeg"
+          <a href="img/poisondartfrog9.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog9.jpeg"
               alt="Frog pictures from Google Search"
               class="gallery-img"
           /></a>
         </div>
-        <div class="gallery-item w-2">
-          <a href="img/poisondartfrog10.jpeg"
+        <div class="gallery-item">
+          <a href="img/poisondartfrog10.jpeg" class="glightbox"
             ><img
               src="img/poisondartfrog10.jpeg"
               alt="Frog pictures from Google Search"
@@ -104,7 +105,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/poisondartfrog11.jpg"
+          <a href="img/poisondartfrog11.jpg" class="glightbox"
             ><img
               src="img/poisondartfrog11.jpg"
               alt="Frog pictures from Google Search"
@@ -113,5 +114,9 @@
         </div>
       </section>
     </main>
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
