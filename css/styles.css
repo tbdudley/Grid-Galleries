@@ -159,7 +159,9 @@ img {
     flex: 1 0 10%;
   }
   /* Grid colum and row spans for wider screens */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  .gallery-span {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .w-1 {
     grid-column: span 1;
   }
